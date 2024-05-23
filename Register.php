@@ -65,7 +65,7 @@ if (isset($_POST["submit"])) {
     $gender = $_POST["gender"];
     $Dob = $_POST["Dob"];
     $phoneNumber = $_POST["number"];
-    // $token = bin2hex(random_bytes(15));
+    $token = bin2hex(random_bytes(15));
 
     // sendmail_verify("$name", "$email", "$token");
     // echo "sent";
